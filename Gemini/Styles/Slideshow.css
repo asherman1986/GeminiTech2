@@ -1,0 +1,104 @@
+﻿#Slideshow {
+    height: 350px;
+    width: 650px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0;
+    overflow: hidden;
+    z-index: 0;
+    background: #000;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    border: 1px solid #000;
+}
+
+    #Slideshow .slides {
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        height: 300px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        overflow: hidden;
+        background: url('../Images/bgTiles.png') repeat-x repeat-y;
+        z-index: 2;
+        }
+        #Slideshow .slides > li {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;      
+            overflow: hidden;    
+        }
+            #Slideshow .slides > li img {
+                width: 500px;
+                -moz-box-shadow:0px 0px 4px #000 inset;
+	            -webkit-box-shadow:0px 0px 4px #000 inset;
+	            box-shadow:0px 0px 4px #000 inset;
+            }
+
+    #Slideshow .phrases {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 1px;
+        height: 40px;
+        width: 260px;
+        font-family: "Segoe UI", Tahoma, Calibr, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        background: #111;
+        color: #fff;
+        overflow: hidden;
+        -moz-box-shadow:0px 0px 5px #000;
+	    -webkit-box-shadow:0px 0px 5px #000;
+	    box-shadow:0px 0px 5px #000; 
+        z-index: 3;  
+            
+    }
+        #Slideshow .phrases > li {
+            display: block;
+            position: absolute;
+            margin-top: 8px;
+            width: 100%;
+        }
+
+    #Slideshow .textblock {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 0px;
+        width: 150px;
+        height: 299px;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Calibr, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center justify;
+        color: #49bfff;
+        overflow: hidden;
+        background: #000;
+        z-index: 0;
+    }
+
+        #Slideshow .textblock > li {
+            display: block;
+            position: absolute;
+            top: 10px;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+            #Slideshow .textblock > li .text {
+                display: inline-block;
+                position: relative;
+            }body {
+}

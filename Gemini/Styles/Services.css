@@ -1,0 +1,291 @@
+﻿#Top {
+    height: 1410px;
+    width: 100%;
+    min-width: 1400px;
+    background: transparent url(../Images/squares.png) repeat-y;
+    background-size: cover;
+    margin-top: -10px;
+    position: relative;
+    display: block;
+}
+
+
+    #Top .content {
+        position: relative;
+        width: 80%;
+        min-width: 1400px;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 0;
+        padding-top: 40px;
+        background: transparent url(../Images/bgTile.png) repeat;
+        border-left: 1px solid #49bfff;
+        border-right: 1px solid #49bfff;
+    }
+
+    .introduction {
+        width: 80%;
+        min-width: 1000px;
+        height: 300px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+        .introduction p {
+            width: 50%;
+            background: #c5e7fa url(../Images/bgTile.png) repeat;
+            border-radius: 10px;
+            font-family: Verdana, Calibri, Arial, sans-serif;
+            font-size: 12pt;
+            line-height: 18pt;
+            float: left;
+            margin: 15px;
+            display: block;
+            padding: 20px;  
+        }
+
+        .introduction img {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+
+#Services {
+    width: 100%;
+    min-width: 1250px;
+    height: 35%;
+    margin-top: 150px;
+    padding: 0;
+    /*background: linear-gradient(top, #0775ad 0%, #003551 100%);
+	background: -moz-linear-gradient(top, #0775ad 0%, #003551 100%);
+	background: -webkit-linear-gradient(top, #0775ad 0%,#003551 100%);*/
+}
+
+#Menu
+{
+    width: 20%;
+    height: 90%;
+    float: left;
+    margin: 15px;
+    background: #0775ad;
+	box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 0 0 200px 1px rgba(255, 255, 255, 0.5);   
+    font-family: "Century Gothic", Verdana, Tahoma, sans-serif;
+}
+
+#Menu h3
+{
+    font-size: 14pt;
+    line-height: 34px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: #c5e7fa;
+}
+
+#Menu h3 a
+{
+    color: #c5e7fa;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+#Menu h3 a:hover
+{
+    color: #fff;
+}
+
+
+#Menu li
+{
+    list-style-type: none;
+    margin: 0;
+}
+
+#Menu ul
+{
+    padding: 10px;
+}
+
+#Menu ul ul li a
+{
+    margin: 0;
+    color: #49bfff;
+	text-decoration: none;
+	font-size: 12pt;
+	line-height: 30px;
+	display: block;
+	padding: 0 15px;
+	/*transition for smooth hover animation*/
+	transition: all 0.5s;
+	cursor: pointer;
+}    
+
+#Menu ul ul li a:hover {
+	color: #fff;
+}
+
+#Menu ul ul
+{
+    margin-top: -10px;
+    display: none;
+}
+
+#Menu  li.active ul {
+	display: block;
+}
+
+
+#ServMain {
+    float: left;
+    width: 75%;
+    min-width: 1000px;
+    height: 90%;
+    margin: 10px;
+    margin-top: 13px;
+    margin-right: 0px;
+    padding: 10px;
+    background: url(../Images/bgTile.png) repeat;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px #0775ad;
+}
+    #ServMain ul {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+        #ServMain ul li {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+    #ServMain .page {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        min-width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+    }
+        #ServMain .page h2 {
+            display: block;
+            font-size: 1.5em;
+            border-bottom: 1px solid #49bfff;    
+        }
+
+        #ServMain .page p {
+            width: 25%;
+            min-width: 200px;
+            height: 75%;
+            display: block;
+            float: left;
+            margin: 10px;
+            margin-right: 0;
+            background: #c5e7fa;
+            padding: 15px;
+            font-family: "Myriad Pro", "Trebuchet MS", Verdana, sans-serif;
+            font-size: 12pt;
+            line-height: 18pt;
+            text-align: left;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 0px 10px 0px #0775ad inset;
+            color: #003551;
+            background: linear-gradient(bottom, #49bfff 0%, #c5e7fa 100%);
+	        background: -moz-linear-gradient(bottom, #49bfff 0%, #c5e7fa 100%);
+	        background: -webkit-linear-gradient(bottom, #49bfff 0%,#c5e7fa 100%);
+        }
+
+        #ServMain .page .details {
+            display: block;
+            float: left;
+            margin: 0;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding: 10px;
+            padding-bottom: 0;
+            width: 68%;
+            height: 80%;
+            border: 1px solid #49bfff;
+            border-radius: 10px;
+            position: relative;
+        }
+            #ServMain .page .details h3 {
+                display: block;
+                font-size: 1.5em;
+                font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+                color: #0775ad;
+            }
+            #ServMain .page .details ul {
+                position: relative;
+                line-height: 18px;
+                font-size: 12pt;
+                font-family: "Century Gothic", Verdana, Tahoma, sans-serif;
+                color: #0775ad;
+                margin-top: 10px;
+                margin-left: 10px;
+                height: 90%;
+                width: 50%;
+                list-style:disc;
+                display: block;
+            }
+                #ServMain .page .details ul li {
+                    position: relative;
+                    display: list-item;
+                    width: 100%;
+                    height: 20px;
+                    margin: 0;
+                    margin-left: 25px;
+                    margin-bottom: 10px;
+                    text-transform: capitalize;
+                }
+
+            #ServMain .page .details .price {
+                width: 48%;
+                height: 280px;
+                position: absolute;
+                top: 45px;
+                right: 0px;
+            }
+
+.note {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    font-size: 10pt;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    color: #003551;
+    height: 30px;
+    padding: 5px;
+}
+
+.special {
+    text-align: center;
+    font-size: 40pt;
+    font-family: "Century Gothic", Verdana, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    color: #0775ad;
+    text-shadow: 2px 2px 8px #fff;
+    padding-top: 45px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+    height: 40%;
+    border: 15px solid #49bfff;
+    border-radius: 100px;
+    background: #49bfff;
+    background: linear-gradient(bottom, #49bfff 0%, #c5e7fa 100%);
+	background: -moz-linear-gradient(bottom, #49bfff 0%, #c5e7fa 100%);
+	background: -webkit-linear-gradient(bottom, #49bfff 0%,#c5e7fa 100%);
+}
